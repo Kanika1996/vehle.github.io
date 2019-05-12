@@ -1,3 +1,13 @@
+  function my1Function() { 
+                window.open('../parallax/blog.html', "_top" ); 
+            }
+             function my2Function() { 
+                window.open('../parallax/post1.html', "_top" ); 
+            }
+              function my3Function() { 
+                window.open('../parallax/post2.html', "_top" ); 
+            }
+
 (function($) { "use strict";
 
 	

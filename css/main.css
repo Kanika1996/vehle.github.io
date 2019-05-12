@@ -46,34 +46,282 @@
 
 
 /*my code*/
-/*
-.resp-container1 {
-    position: relative;
-    overflow: hidden;
-    height: 0;
-    padding-bottom: 75%;
-}
+.scroll{
 
-.resp-container1 iframe{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 90%;
+    margin-top: 5%;
+    font-weight: 400;
+}
+.gallery{
+
+
+    margin-top: -15%;
+}
+/*@media screen and (max-width:1166px) {
+        .gallery{
+
+            
+        }
+
+   
+    @media screen and (max-width:1024px) {
+        .gallery{
+
+            
+        }
+    
+    @media screen and (max-width:980px) {
+        .gallery{
+
+            
+        }
+    
+    @media screen and (max-width:767px) {
+        .gallery{
+
+            
+        }
+    
+    @media screen and (max-width:599px) {
+        .gallery{
+
+            
+        }
+    
+    @media screen and (max-width:479px) {
+        .gallery{
+
+        
+        }
+    
+    @media screen and (max-width:374px) {
+        .gallery{
+
+            
+        }    */       
+
+
+/*.resp-iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
-*/
-/*
-.frame {
-  display: block;
-  width: 100vw;
-  height: 150vh;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0 none;
-  box-sizing: border-box;
-}
-*/
+    border: 0;
+}*/
+.resp-iframe {
+        width:100%;
+        height:734px;
+        border:none;
+        overflow:hidden;
+    }
+    @media screen and (max-width:1166px) {
+        .resp-iframe {
+            width:100%;
+            height:734px;
+        }
+
+    }
+    @media screen and (max-width:1024px) {
+        .resp-iframe {
+            width:100%;
+            height:734px;
+        }
+    }
+    @media screen and (max-width:980px) {
+        .resp-iframe {
+            width:100%;
+            height:734px;
+        }
+    }
+    @media screen and (max-width:767px) {
+        .resp-iframe {
+            width:100%;
+            height:1388px;
+        }
+    }
+    @media screen and (max-width:599px) {
+        .resp-iframe {
+            width:100%;
+            height:1388px;
+        }
+    }
+    @media screen and (max-width:479px) {
+        .resp-iframe {
+            width:100%;
+            height:1388px;
+        }
+    }
+    @media screen and (max-width:374px) {
+        .resp-iframe {
+            width:100%;
+            height:1388px;
+        }
+    }        
+
+.resp1-iframe {
+        width:100%;
+        height:1388px;
+        border:none;
+        overflow:hidden;
+        margin-top: -4%;
+    }
+    @media screen and (max-width:1166px) {
+        .resp1-iframe {
+            width:100%;
+            height:1388px;
+
+        }
+
+    }
+    @media screen and (max-width:1024px) {
+        .resp1-iframe {
+            width:100%;
+            height:1388px;
+            margin-top: 0%;
+        }
+    }
+    @media screen and (max-width:980px) {
+        .resp1-iframe {
+            width:100%;
+            height:1588px;
+
+        }
+    }
+    @media screen and (max-width:767px) {
+        .resp1-iframe {
+            width:100%;
+            height:1588px;
+            margin-top: -20%;
+        }
+    }
+    @media screen and (max-width:599px) {
+        .resp1-iframe {
+            width:100%;
+            height:1588px;
+            margin-top: -20%;
+        }
+    }
+    @media screen and (max-width:479px) {
+        .resp1-iframe {
+            width:100%;
+            height:1450px;
+            margin-top: -30%;
+        }
+    }
+    @media screen and (max-width:374px) {
+        .resp1-iframe {
+            width:100%;
+            height:1450px;
+        }
+    }    
+
+
+    .vehlelogo{
+
+     height: auto;
+     max-width: 350px;
+     width: 100%;
+     margin-top: -8%;
+
+    }
+    
+    @media screen and (max-width:1166px) {
+        .vehlelogo {
+            width:100%;
+            height:auto;
+        }
+
+    }
+    @media screen and (max-width:1024px) {
+        .vehlelogo {
+            width:100%;
+            height:auto;
+        }
+    }
+    @media screen and (max-width:980px) {
+        .vehlelogo {
+            width:80%;
+            height:auto;
+        }
+    }
+    @media screen and (max-width:767px) {
+        .vehlelogo {
+            width:70%;
+            height:auto;
+        }
+    }
+    @media screen and (max-width:599px) {
+        .vehlelogo {
+            width:70%;
+            height:auto;
+        }
+    }
+    @media screen and (max-width:479px) {
+        .vehlelogo {
+            width:60%;
+            height:auto;
+        }
+    }
+    @media screen and (max-width:374px) {
+        .vehlelogo {
+            width:60%;
+            height:auto;
+        }
+    }   
+
+    .tagline{
+
+        font-size: 170%;
+        color: white;
+        margin-top: 3%;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 1px 1px 25px #000000;
+        letter-spacing: 1.5px;
+    }     
+
+@media screen and (max-width:1166px) {
+        .tagline {
+            font-size: 170%;
+        }
+
+    }
+    @media screen and (max-width:1024px) {
+        .tagline {
+            font-size: 170%;
+        }
+    }
+    @media screen and (max-width:980px) {
+        .tagline {
+            font-size: 170%;
+        }
+    }
+    @media screen and (max-width:767px) {
+        .tagline {
+            font-size: 150%;
+        }
+    }
+    @media screen and (max-width:599px) {
+        .tagline {
+            font-size: 150%;
+        }
+    }
+    @media screen and (max-width:479px) {
+        .tagline {
+            font-size: 120%;
+        }
+    }
+    @media screen and (max-width:374px) {
+        .tagline {
+            font-size: 120%;
+        }
+    }   
+
+
+
+
 /*end my code*/
 
 
@@ -166,25 +414,16 @@
     font-size: 20px;
 }
 
-.vehlelogo{
 
-     height: auto;
-     max-width: 350px;
-     width: 100%;
-     margin-top: -8%;
 
-}
-
-.tagline{
-
-    font-size: 200%;
-    color: white;
-    margin-top: 3%;
-    font-family: 'ZCOOL KuaiLe', cursive;
-}
 
 section.hero {
-    background: #97C5D8;
+    /*background: #3fb0ac;  */
+    /*background: linear-gradient(#3fb0ac, transparent), url("../img/back.png") top center/cover no-repeat ;*/
+    /*background: #3fb0ac, url("../img/Texture-01.png") top center/cover no-repeat ;*/
+    background: url("../img/back1.png") top center/cover no-repeat ;
+  
+
     margin: 0 0 240px;
     padding: 0;
     position: relative;
@@ -1176,3 +1415,201 @@ p.lead.large {
     }
 }
 /*End media queries*/
+
+
+
+
+
+/*form*/
+input[type=text], input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:16px;
+}
+
+textarea{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:16px;
+
+}
+
+input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+input[type=text]::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+input[type=text]:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+input[type=text]:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+input[type=email]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+input[type=email]::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+input[type=email]:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+input[type=email]:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+input::placeholder {
+  color: rgba(255,255,255,.5);
+}
+
+/* Set a style for all buttons */
+.button11 {
+    background-color: #3fb0ac;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    font-size:20px;
+}
+.button11:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer1 {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar1 {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal1 {
+    display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content1 {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+    padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close1 {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close1:hover,.close1:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate1 {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/*popup*/
+
+/*.popup-preview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s; }
+  .popup-preview.viewed {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s; }
+    .popup-preview.viewed .popup-content {
+      margin-top: 0;
+      opacity: 1;
+      visibility: visible;
+      transition-delay: 0.3s; }
+  .popup-preview .popup-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75); }
+  .popup-preview .popup-content {
+    position: relative;
+    margin-top: 60px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s 0.3s ease; }
+  .popup-preview .popup-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    opacity: 0.6; }
+    .popup-preview .popup-close:hover {
+      opacity: 1; }
+    .popup-preview .popup-close .hamburger-box {
+      width: 25px; }
+    .popup-preview .popup-close .hamburger-inner,
+    .popup-preview .popup-close .hamburger-inner::before,
+    .popup-preview .popup-close .hamburger-inner::after {
+      width: 25px;
+      background: #fff; }
+  .popup-preview .bh-form-1 {
+    width: 360px; }
+  .popup-preview .bh-form-2 {
+    margin-top: 0; }
+*/

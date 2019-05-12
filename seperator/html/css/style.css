@@ -1,3 +1,46 @@
+.call-to-action.style-2 h2 {
+  font-size: 32px;
+}
+@media screen and (max-width:1200px) {
+        .call-to-action.style-2 h2 {
+          font-size: 26px;
+        }
+    }
+@media screen and (max-width:1166px) {
+        .call-to-action.style-2 h2 {
+          font-size: 26px;
+        }
+    }
+    @media screen and (max-width:1028px) {
+        .call-to-action.style-2 h2 {
+          font-size: 26px;
+        }
+    }
+    @media screen and (max-width:994px) {
+        .call-to-action.style-2 h2 {
+          font-size: 22px;
+        }
+    }
+    @media screen and (max-width:767px) {
+        .call-to-action.style-2 h2 {
+          font-size: 26px;
+        }
+    }
+    @media screen and (max-width:599px) {
+        .call-to-action.style-2 h2 {
+          font-size: 20px;
+        }
+    }
+    @media screen and (max-width:479px) {
+        .call-to-action.style-2 h2 {
+          font-size: 10px;
+        }
+    }
+    @media screen and (max-width:374px) {
+        .call-to-action.style-2 h2 {
+          font-size: 10px;
+        }
+    }        
 /*-------------------------------------------------------*/
 /* General
 /*-------------------------------------------------------*/
@@ -61,7 +104,9 @@
 }
 
 .bg-color {
-  background-color: #e7604a;
+  background-color: #3fb0ac;
+  /*background: #3fb0ac, url("../../../img/Texture-06.png") top center/cover no-repeat ;*/
+  /*background-image: #3fb0ac ,url("../../../img/Texture-06.png") top center/cover no-repeat;*/
 }
 
 .white {
@@ -491,7 +536,7 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin-top: 0;
   color: #5a5b5f;
   font-weight: 300;
@@ -502,9 +547,7 @@ h1 {
   font-size: 36px;
 }
 
-h2 {
-  font-size: 32px;
-}
+
 
 h3 {
   font-size: 28px;
@@ -2125,7 +2168,8 @@ header.transparent #nav-icon span {
   margin-bottom: 15px;
 }
 .call-to-action.bg-gradient {
-  background-image: url(../img/cta_bg.jpg);
+  background-image: url(../../../img/Texture-06);
+
 }
 .call-to-action.bg-gradient:before {
   opacity: .8;
@@ -2143,7 +2187,7 @@ header.transparent #nav-icon span {
   padding: 56px 0;
 }
 .call-to-action.style-2 h2 {
-  font-size: 28px;
+ 
   font-weight: 300;
   margin-top: 3px;
   margin-bottom: 0;

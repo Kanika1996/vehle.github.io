@@ -14,11 +14,11 @@
 .shop-item  .link-items a:hover,
 .shop-item .hot,
 .sin-shop-item .item-text-wrap .button:hover{
-	background-color:#cfa144;
+	background-color:#3fb0ac;
 }
 ul.slimmenu li a:hover,
 #sync2 .synced .item {
-    border-bottom:1px solid #cfa144;
+    border-bottom:1px solid #3fb0ac;
 }
 ul.slimmenu li a.mPS2id-highlight,
 #sync2 .item:hover h6,
@@ -37,34 +37,34 @@ ul.slimmenu li a.mPS2id-highlight,
 .shop-item .price,
 .shop-item h6:hover,
 .sin-shop-item .item-text-wrap h3 {
-	color:#cfa144;
+	color:#3fb0ac;
 }
 #ajax-form textarea:focus,
 #ajax-form input:focus,
 #ajax-form textarea:active,
 #ajax-form input:active {	
-	border-bottom:1px solid #cfa144;
+	border-bottom:1px solid #3fb0ac;
 }
 .comments textarea:focus,
 .comments input:focus,
 .comments textarea:active,
 .comments input:active {	
-	border-bottom:1px solid #cfa144;
+	border-bottom:1px solid #3fb0ac;
 }
 .con-details .icon {
-	border:1px solid #cfa144;
+	border:1px solid #3fb0ac;
 }
 .sidebar input:-ms-input-placeholder  {
-	color:#cfa144;
+	color:#3fb0ac;
 }
 .sidebar input::-moz-placeholder  {
-	color:#cfa144;
+	color:#3fb0ac;
 }
 .sidebar input:-moz-placeholder  {
-	color:#cfa144;
+	color:#3fb0ac;
 }
 .sidebar input::-webkit-input-placeholder  {
-	color:#cfa144;
+	color:#3fb0ac;
 }
 
 
@@ -73,10 +73,10 @@ ul.slimmenu li a.mPS2id-highlight,
 
 
 ::selection {
-	background: #cfa144;
+	background: #3fb0ac;
 }
 ::-moz-selection {
-	background: #cfa144;
+	background: #3fb0ac;
 }
 
 

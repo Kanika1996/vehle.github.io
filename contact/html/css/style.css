@@ -47,13 +47,19 @@ section.hero .inner-hero {
 .header .logo {
     margin-top: 10px;
     display: block;
+
 }
 .header .logo h2,
 .footer .logo h2 {
     color: #ffffff;
     font-size: 17px;
+    font-weight: 700;
     text-transform: uppercase;
     font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.header .logo h2 span{
+    font-weight: 400;
+
 }
 .header.switched-header .logo h2,
 .footer .logo h2 {
@@ -771,6 +777,7 @@ p {
   font-weight: normal;
   line-height: 26px;
 }
+
 
 .heading {
   position: relative;
@@ -7393,4 +7400,28 @@ input[type="email"].newsletter-input:focus {
   #customizer {
     display: none;
   }
+}
+
+
+
+/*my code*/
+
+.scroll{
+
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 90%;
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+ul li .scroll{
+
+  font-weight: 400;
+}
+
+.nav-links .prev, 
+.nav-links .next {
+    display: none;
+    background: transparent;
 }

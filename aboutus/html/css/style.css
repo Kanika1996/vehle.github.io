@@ -4,10 +4,94 @@
 
 /*my code*/
 
+p.intro-text {
+  font-size: 18px;
+  line-height: 36px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+@media screen and (max-width:1166px) {
+        p.intro-text {
+            font-size: 18px;
+            line-height: 36px;
+        }
+
+    }
+    @media screen and (max-width:1024px) {
+        p.intro-text {
+            font-size: 18px;
+            line-height: 36px;
+        }
+    }
+    @media screen and (max-width:980px) {
+        p.intro-text {
+            font-size: 18px;
+            line-height: 36px;
+        }
+         h2.intro-heading{
+
+          
+          margin-top: 50px;
+
+        }
+    }
+    @media screen and (max-width:767px) {
+        p.intro-text {
+            font-size: 16px;
+            line-height: 30px;
+        }
+         h2.intro-heading{
+
+          
+          margin-top: -20px;
+
+        }
+       
+    }
+    @media screen and (max-width:599px) {
+        p.intro-text {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        h2.intro-heading{
+
+          margin-top: 0px;
+
+        }
+    }
+    @media screen and (max-width:479px) {
+        p.intro-text {
+            font-size: 14px;
+            line-height: 26px;
+        }
+        h2.intro-heading{
+
+          font-size: 40px;
+          margin-top: -15%;
+
+        }
+    }
+    @media screen and (max-width:374px) {
+        p.intro-text {
+            font-size: 14px;
+            line-height: 26px;
+        }
+        h2.intro-heading{
+
+          font-size: 40px;
+          margin-top: -80px;
+
+        }
+    }   
+
+
+
 
 .tagline{
 
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'Reenie Beanie', cursive;
+
 }
 
 
@@ -2290,15 +2374,12 @@ header.transparent #nav-icon span {
 }
 
 .intro-heading {
-  font-size: 38px;
+  font-size: 50px;
   line-height: 56px;
   margin-bottom: 28px;
 }
 
-p.intro-text {
-  font-size: 18px;
-  line-height: 36px;
-}
+
 
 /*-------------------------------------------------------*/
 /* iPad with Features

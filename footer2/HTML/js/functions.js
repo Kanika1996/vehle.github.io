@@ -1,3 +1,16 @@
+  function my1Function() { 
+                window.open("https://www.facebook.com/teamvehle/", "_blank" ); 
+            }
+
+  function my2Function() { 
+                window.open("https://www.instagram.com/vehle.in/", "_blank" ); 
+            }
+  function my3Function() { 
+                window.open("https://www.linkedin.com/company/vehle/", "_blank" ); 
+            }
+
+ 
+
 ( function( $ ) {
 
 "use strict";

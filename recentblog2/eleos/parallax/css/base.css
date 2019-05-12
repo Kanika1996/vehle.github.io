@@ -50,8 +50,8 @@
 /* #Basic Styles
 ================================================== */
 body {
-	background: #f2f2f2;
-	font-family: 'Open Sans', sans-serif;
+	background: white;
+	font-family: 'Quicksand', sans-serif;
 	font-weight:300;
 	font-size: 14px;
 	line-height:22px;
@@ -69,7 +69,7 @@ body {
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
 	color: #414141;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-weight:700;
 	text-align:center;
 }
@@ -104,12 +104,18 @@ h6 { font-size: 18px; line-height: 24px; font-weight:400;}
 
 /* #Links
 ================================================== */
+
 	a, a:visited { text-decoration: none; }
 	a:hover, a:focus { color: #e74c3c;}
 	p a, p a:visited { line-height: inherit; text-decoration: none;}
 	a:focus{
 	outline:none;
 	}
+
+.nav-links .prev, 
+.nav-links .next {
+    display: none;
+}
 
 /* #Lists
 ================================================== */
